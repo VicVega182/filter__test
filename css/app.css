@@ -26,6 +26,16 @@ body {
   font-size: 18px;
   margin-right: 5px;
 }
+.filter__remove {
+  font-size: 18px;
+  margin-left: 5px;
+  color: black;
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  display: none;
+}
 .filter__buttons {
   display: flex;
   padding: 10px 0;

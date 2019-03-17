@@ -44,6 +44,9 @@ function addRow() {
         return false;
     }
 };
+function removeRow() {
+    this.closest('div').remove();
+};
 
 function resetForm() {
     document.getElementById("filterForm").reset();
