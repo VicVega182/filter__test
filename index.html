@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание: Фильтр</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+<form method="post" class="filter -js-filter" id="filterForm">
+    <div id="filter__list">
+        <div class="filter__row" id="elFilter">
+            <select name="type" id="type">
+                <option value="text">Text field</option>
+                <option value="number">Number field</option>
+            </select>
+            <select name="operation" id="filter"></select>
+            <input name="value" type="text" value="">
+        </div>
+    </div>
+    <div class="filter__add">
+        <button type="button" class="link" onclick="addRow()"><span>+</span>Add condition</button>
+    </div>
+
+    <div class="filter__buttons">
+        <button type="button" class="-blue" onclick="apply()">Apply</button>
+        <button type="button" class="-gray" onclick="resetForm()">Clear filter</button>
+    </div>
+
+</form>
+</body>
+</html>

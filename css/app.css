@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+.filter__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.filter__row select,
+.filter__row input {
+  margin: 0 5px;
+}
+.filter__add {
+  margin: 20px 5px;
+}
+.filter__add button {
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  color: blue;
+  font-size: 14px;
+  outline: none;
+}
+.filter__add button span {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.filter__buttons {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid gray;
+}
+.filter__buttons button {
+  outline: none;
+  margin: 0 5px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.filter__buttons button.-blue {
+  border: 1px solid blue;
+  background: blue;
+  color: white;
+}
+.filter__buttons button.-blue:hover {
+  background: white;
+  color: blue;
+}
+.filter__buttons button.-gray {
+  border: 1px solid gray;
+  background: white;
+  color: gray;
+}
+.filter__buttons button.-gray:hover {
+  background: gray;
+  color: white;
+}
+/*# sourceMappingURL=app.css.map */

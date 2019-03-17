@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.filter {
+  &__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    select, input {
+      margin: 0 5px;
+    }
+  }
+
+  &__add {
+    margin: 20px 5px;
+    button {
+      border: none;
+      padding: 0;
+      box-shadow: none;
+      color: blue;
+      font-size: 14px;
+      outline: none;
+      span {
+        font-size: 18px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    padding: 10px 0;
+    border-top: 1px solid gray;
+    button {
+      outline: none;
+      margin: 0 5px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      &.-blue {
+        border: 1px solid blue;
+        background: blue;
+        color: white;
+        &:hover {
+          background: white;
+          color: blue;
+        }
+      }
+      &.-gray {
+        border: 1px solid gray;
+        background: white;
+        color: gray;
+        &:hover {
+          background: gray;
+          color: white;
+        }
+      }
+    }
+  }
+}
